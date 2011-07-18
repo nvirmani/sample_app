@@ -1,0 +1,606 @@
+loading autotest/rails_rspec2
+style: RailsRspec2
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb' 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb' 'c:/rails_projects/sample_app/spec/helpers/users_helper_spec.rb' 'c:/rails_projects/sample_app/spec/views/users/new.html.erb_spec.rb' 'c:/rails_projects/sample_app/spec/requests/layout_links_spec.rb'
+.........F**.....
+
+Pending:
+  UsersHelper add some examples to (or delete) c:/rails_projects/sample_app/spec/helpers/users_helper_spec.rb
+    # Not Yet Implemented
+    # ./spec/helpers/users_helper_spec.rb:14
+  users/new.html.erb add some examples to (or delete) c:/rails_projects/sample_app/spec/views/users/new.html.erb_spec.rb
+    # Not Yet Implemented
+    # ./spec/views/users/new.html.erb_spec.rb:4
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.49 seconds
+17 examples, 1 failure, 2 pending
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.16 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.21 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.19 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.2 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.81 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.36 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.17 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.27 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.24 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.2 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.19 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.22 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.23 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.23 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.21 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.25 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.21 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.37 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.47 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.45 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.24 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.37 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.46 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.19 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.23 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.23 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: response.should have_selector( "title", :content => "Sign up")
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.26 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+.F
+
+Failures:
+  1) UsersController GET 'new' should have the right title
+     Failure/Error: get 'new'
+     expected following output to contain a <title>Sign up</title> tag:
+     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/users_controller_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+Finished in 5.31 seconds
+2 examples, 1 failure
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb'
+..
+
+Finished in 5.45 seconds
+2 examples, 0 failures
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[fbundle exec c:\Ruby192\bin\ruby -S c:/Ruby192/lib/ruby/gems/1.9.1/gems/rspec-core-2.0.1/bin/rspec --autotest 'c:/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb' 'c:/rails_projects/sample_app/spec/controllers/users_controller_spec.rb' 'c:/rails_projects/sample_app/spec/helpers/users_helper_spec.rb' 'c:/rails_projects/sample_app/spec/views/users/new.html.erb_spec.rb' 'c:/rails_projects/sample_app/spec/requests/layout_links_spec.rb'
+..........**.....
+
+Pending:
+  UsersHelper add some examples to (or delete) c:/rails_projects/sample_app/spec/helpers/users_helper_spec.rb
+    # Not Yet Implemented
+    # ./spec/helpers/users_helper_spec.rb:14
+  users/new.html.erb add some examples to (or delete) c:/rails_projects/sample_app/spec/views/users/new.html.erb_spec.rb
+    # Not Yet Implemented
+    # ./spec/views/users/new.html.erb_spec.rb:4
+
+Finished in 5.45 seconds
+17 examples, 0 failures, 2 pending
+Notification sent successfully
+Notification sent successfully
+
+
+
+--------------------------------------------------------------------------------
+
+[2J[f
+
+--------------------------------------------------------------------------------
+
+[2J[f
+
+--------------------------------------------------------------------------------
+
+[2J[f
